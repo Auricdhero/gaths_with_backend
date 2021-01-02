@@ -1,0 +1,72 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.child{
+  color: white;
+
+}
+
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.nav-link a{
+  color: white;
+}
+.nav-link a:hover{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav-link a:active{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .stat {
+    background-attachment: scroll;
+  }
+}
+
+.stat{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stat-items{
+  color: white;
+  background-color: rgba(31, 25, 25, 0.572);
+}
+
+
